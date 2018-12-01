@@ -19,11 +19,11 @@ public class AdminLogin {
   String E_Title=driver.getTitle();
   if(E_Url.contains("http://www.gcrit.com/build3/admin"))
   { 
-	  System.out.println("Test Case:1 Exepected URL Got--Passed..");
+	  System.out.println("Test Case:1 Exepected URL Got--Passed...");
   }
   else
   {
-	  System.out.println("Test Case:1 Exepected URL not Got--Failed..");
+	  System.out.println("Test Case:1 Exepected URL not Got--Failed...");
 	  //when failed case
   }
   if(E_Title.equals("GCR Shop"))
