@@ -23,7 +23,8 @@ public class AdminLogin {
   }
   else
   {
-	  System.out.println("Test Case:1 Exepected URL not Got--Failed");
+	  System.out.println("Test Case:1 Exepected URL not Got--Failed..");
+	  //when failed case
   }
   if(E_Title.equals("GCR Shop"))
   { 
