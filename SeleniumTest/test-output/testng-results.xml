@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-27T09:08:20Z" name="Default suite" finished-at="2018-10-27T09:12:29Z" duration-ms="249018">
+    <groups>
+      <group name="gmail">
+        <method signature="GoogleTest.ClickOnGmail()[pri:3, instance:Com.TestNG.GoogleTest@e4487af]" name="ClickOnGmail" class="Com.TestNG.GoogleTest"/>
+        <method signature="GoogleTest.GetCurrentUrl()[pri:2, instance:Com.TestNG.GoogleTest@e4487af]" name="GetCurrentUrl" class="Com.TestNG.GoogleTest"/>
+        <method signature="GoogleTest.GetTitle()[pri:1, instance:Com.TestNG.GoogleTest@e4487af]" name="GetTitle" class="Com.TestNG.GoogleTest"/>
+        <method signature="GoogleTest.Search()[pri:5, instance:Com.TestNG.GoogleTest@e4487af]" name="Search" class="Com.TestNG.GoogleTest"/>
+        <method signature="GoogleTest.backtoMainPage()[pri:4, instance:Com.TestNG.GoogleTest@e4487af]" name="backtoMainPage" class="Com.TestNG.GoogleTest"/>
+      </group> <!-- gmail -->
+    </groups>
+    <test started-at="2018-10-27T09:08:20Z" name="Default test" finished-at="2018-10-27T09:12:29Z" duration-ms="249018">
+      <class name="Com.TestNG.GoogleTest">
+        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:08:20Z" name="LaunchTheBrowser" finished-at="2018-10-27T09:09:14Z" duration-ms="54090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method signature="GetTitle()[pri:1, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:09:14Z" name="GetTitle" finished-at="2018-10-27T09:09:15Z" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTitle -->
+        <test-method is-config="true" signature="BeforeCloseTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:09:15Z" name="BeforeCloseTheBrowser" finished-at="2018-10-27T09:09:20Z" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeCloseTheBrowser -->
+        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:09:20Z" name="LaunchTheBrowser" finished-at="2018-10-27T09:10:13Z" duration-ms="53200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method signature="GetCurrentUrl()[pri:2, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:10:13Z" name="GetCurrentUrl" finished-at="2018-10-27T09:10:13Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCurrentUrl -->
+        <test-method is-config="true" signature="BeforeCloseTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:10:13Z" name="BeforeCloseTheBrowser" finished-at="2018-10-27T09:10:17Z" duration-ms="3815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeCloseTheBrowser -->
+        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:10:17Z" name="LaunchTheBrowser" finished-at="2018-10-27T09:11:08Z" duration-ms="50281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method signature="ClickOnGmail()[pri:3, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:11:08Z" name="ClickOnGmail" finished-at="2018-10-27T09:11:21Z" duration-ms="13042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnGmail -->
+        <test-method is-config="true" signature="BeforeCloseTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:11:21Z" name="BeforeCloseTheBrowser" finished-at="2018-10-27T09:11:23Z" duration-ms="1967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeCloseTheBrowser -->
+        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:11:23Z" name="LaunchTheBrowser" finished-at="2018-10-27T09:11:54Z" duration-ms="30954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method signature="backtoMainPage()[pri:4, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:11:54Z" name="backtoMainPage" finished-at="2018-10-27T09:11:54Z" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtoMainPage -->
+        <test-method is-config="true" signature="BeforeCloseTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:11:54Z" name="BeforeCloseTheBrowser" finished-at="2018-10-27T09:11:55Z" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeCloseTheBrowser -->
+        <test-method is-config="true" signature="LaunchTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:11:55Z" name="LaunchTheBrowser" finished-at="2018-10-27T09:12:25Z" duration-ms="29319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method signature="Search()[pri:5, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:12:25Z" name="Search" finished-at="2018-10-27T09:12:28Z" duration-ms="3306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="BeforeCloseTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:12:28Z" name="BeforeCloseTheBrowser" finished-at="2018-10-27T09:12:29Z" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeCloseTheBrowser -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:Com.TestNG.GoogleTest@e4487af]" started-at="2018-10-27T09:12:29Z" name="CloseTheBrowser" finished-at="2018-10-27T09:12:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- Com.TestNG.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
